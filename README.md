@@ -29,3 +29,9 @@ This sample shows how to create a fully functional chatbot.
 6. `git push heroku master`
 
 # Environment variables
+
+| variable        |value                        |
+| -------------   |:-------------:              |
+| appSecret       | facebook app secret         |
+| pageAccessToken | facebook page access token  |
+| validationToken | facebook validation token   |
