@@ -50,4 +50,4 @@ https://example.herokuapp.com/ | https://git.heroku.com/example.git`
 
 
 ### Setup Webhook
-![FB Webhook](callback_url.PNG)
+![FB Webhook](/assets/callback_url.PNG)
