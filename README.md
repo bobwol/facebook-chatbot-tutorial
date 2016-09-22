@@ -21,7 +21,7 @@ This sample shows how to create a fully functional chatbot.
 3. set up intents and entities --> https://api.ai/blog/2015/11/09/SlotFilling
 
 # Backend and Heroku
-1. clone this repo
+1. `git clone https://github.com/AdrianKrebs/facebook-chatbot-tutorial.git`
 2. create heroku account --> https://signup.heroku.com/
 3. `heroku create`
 4. add environment variables to the heroku app --> https://devcenter.heroku.com/articles/config-vars
