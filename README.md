@@ -1,4 +1,4 @@
-# Facebook Chatbot Tutorial
+#:loudspeaker: Facebook Chatbot Tutorial :loudspeaker:
 Step by step guide how to build a fully functional chatbot sample app using facebook messenger plattform and node.js
 
 ## Facebook integration
@@ -26,6 +26,7 @@ https://example.herokuapp.com/ | https://git.heroku.com/example.git`
 6. `git commit -m -a "initial commit" `
 7. `git push heroku master`
 8. `heroku logs --tail`
+9. go to your Facebook page and send a message. The bot will echo back :memo::speech_balloon:
 
 ### Config Variables
 
@@ -42,6 +43,7 @@ https://example.herokuapp.com/ | https://git.heroku.com/example.git`
 3. `lt --port 5000`
 4. you will see something like this: `https://gqgh.localtunnel.me which is your public base URL`
 6. setup Facebook webhook with the just received url https://developers.facebook.com/docs/messenger-platform/product-overview/setup#webhook_setup 
+7. go to your Facebook page and send a message. The bot will echo back :memo::speech_balloon:
 
 **Note** : everytime you restart the webserver you also have to restart the localtunnel, setup the webhook, unsuscribe the page and suscribe it again to the new webhook.
 
