@@ -15,7 +15,7 @@ There are two ways to do this:
 - deploy your app on Heroku
 - use https://localtunnel.me/ to tunnel to your local machine
 
-### Deploy on Heroku
+### 1. Deploy on Heroku
 1. create Heroku account --> https://signup.heroku.com/
 2. Install Heroku Toolbelt --> https://devcenter.heroku.com/articles/heroku-command-line
 3. type `heroku create` in your app
@@ -35,7 +35,7 @@ https://example.herokuapp.com/ | https://git.heroku.com/example.git`
 | pageAccessToken | facebook page access token  |
 | validationToken | facebook validation token   |
 
-### Use localtunnel
+### 2. Use localtunnel
 1. set config-vars in `default.config` file in your app
 1. `npm install -g localtunnel`
 2. Tunnel our local server port
