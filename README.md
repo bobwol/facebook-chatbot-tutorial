@@ -22,27 +22,29 @@ There are two ways to do this:
 - deploy your app on Heroku
 
 ## Use localtunnel
-* `npm install -g localtunnel`
-* Tunnel our local server port
-* `lt --port 5000`
-* you will see something like this:
-* `https://gqgh.localtunnel.me which is your public base URL`
-* setup the webhook https://developers.facebook.com/docs/messenger-platform/product-overview/setup#webhook_setup
-* 
+1. `npm install -g localtunnel`
+2. Tunnel our local server port
+3. `lt --port 5000`
+4. you will see something like this: `https://gqgh.localtunnel.me which is your public base URL`
+6. setup the webhook https://developers.facebook.com/docs/messenger-platform/product-overview/setup#webhook_setup
+
 
 
 
 ## Deploy on Heroku
-1. create heroku account --> https://signup.heroku.com/
-2. `heroku create`
-3. add environment variables to the heroku app --> https://devcenter.heroku.com/articles/config-vars
-4. `git commit -m -a "initial commit" `
-5. `git push heroku master`
-
-# Environment variables
-
+1. create Heroku account --> https://signup.heroku.com/
+2. Install Heroku Toolbelt --> https://devcenter.heroku.com/articles/heroku-command-line
+3. type `heroku create` in your app
+4. you will see something like this: `Creating example... done
+https://example.herokuapp.com/ | https://git.heroku.com/example.git`
+5. add environment variables to the heroku app --> https://devcenter.heroku.com/articles/config-vars
 | variable        |value                        |
 | -------------   |:-------------:              |
 | appSecret       | facebook app secret         |
 | pageAccessToken | facebook page access token  |
 | validationToken | facebook validation token   |
+
+6. `git commit -m -a "initial commit" `
+7. `git push heroku master`
+8. `heroku logs --tail`
+
