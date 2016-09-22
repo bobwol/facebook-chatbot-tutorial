@@ -32,19 +32,20 @@ There are two ways to do this:
 
 
 ## Deploy on Heroku
-1. create Heroku account --> https://signup.heroku.com/
-2. Install Heroku Toolbelt --> https://devcenter.heroku.com/articles/heroku-command-line
-3. type `heroku create` in your app
-4. you will see something like this: `Creating example... done
+* create Heroku account --> https://signup.heroku.com/
+* Install Heroku Toolbelt --> https://devcenter.heroku.com/articles/heroku-command-line
+* type `heroku create` in your app
+* you will see something like this: `Creating example... done
 https://example.herokuapp.com/ | https://git.heroku.com/example.git`
-5. add environment variables to the heroku app --> https://devcenter.heroku.com/articles/config-vars
+* add environment variables to the heroku app --> https://devcenter.heroku.com/articles/config-vars
+
 | variable        |value                        |
 | -------------   |:-------------:              |
 | appSecret       | facebook app secret         |
 | pageAccessToken | facebook page access token  |
 | validationToken | facebook validation token   |
 
-6. `git commit -m -a "initial commit" `
-7. `git push heroku master`
-8. `heroku logs --tail`
+* `git commit -m -a "initial commit" `
+* `git push heroku master`
+* `heroku logs --tail`
 
