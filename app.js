@@ -2,6 +2,7 @@
 
 const
     config = require('config'),
+    bodyParser = require('body-parser'),
     express = require('express'),
     request = require('request');
 
@@ -9,6 +10,7 @@ const
 var app = express();
 app.set('port', process.env.PORT || 5000);
 app.use(express.static('public'));
+app.use(bodyParser.json());
 
 
 // App Secret can be retrieved from the App Dashboard
@@ -32,7 +34,7 @@ const SERVER_URL = (process.env.SERVER_URL) ?
     (process.env.SERVER_URL) :
     config.get('serverURL');
 
-if (!(APP_SECRET && VALIDATION_TOKEN && PAGE_ACCESS_TOKEN && SERVER_URL)) {
+if (!(APP_SECRET && VALIDATION_TOKEN && PAGE_ACCESS_TOKEN)) {
     console.error("Missing config values");
     process.exit(1);
 }
