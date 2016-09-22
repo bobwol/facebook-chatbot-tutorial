@@ -1,4 +1,4 @@
-#:loudspeaker: Facebook Chatbot Tutorial :loudspeaker:
+#🤖 Facebook Chatbot Tutorial 🤖
 Step by step guide how to build a fully functional chatbot sample app using facebook messenger plattform and node.js
 
 ## Facebook integration
