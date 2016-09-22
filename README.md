@@ -9,7 +9,7 @@ This sample shows how to create a fully functional chatbot.
 # Facebook integration
 
 1. create a Facebook Page --> https://www.facebook.com/pages/create/
-2. create a Facebook App  --> https://developers.facebook.com/docs/messenger-platform/implementation#create_app_page
+2. create a Facebook App  --> https://developers.facebook.com/docs/messenger-platform/product-overview/setup#app_and_page_setup
 
 # Server
 1. `git clone https://github.com/AdrianKrebs/facebook-chatbot-tutorial.git`
