@@ -1,10 +1,5 @@
 # Facebook Chatbot Tutorial
-Step by step guide how to build a chatbot sample app using facebook messenger plattform and node.js
-
-This sample shows how to create a fully functional chatbot.
-
-1. Build Facebook integration with node.js backend
-2. Deploy on Heroku
+Step by step guide how to build a fully functional chatbot sample app using facebook messenger plattform and node.js
 
 # Facebook integration
 
