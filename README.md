@@ -22,6 +22,7 @@ There are two ways to do this:
 - deploy your app on Heroku
 
 ## Use localtunnel
+1. set config-vars in `default.config` file in your app
 1. `npm install -g localtunnel`
 2. Tunnel our local server port
 3. `lt --port 5000`
@@ -29,23 +30,21 @@ There are two ways to do this:
 6. setup the webhook https://developers.facebook.com/docs/messenger-platform/product-overview/setup#webhook_setup
 
 
-
-
 ## Deploy on Heroku
-* create Heroku account --> https://signup.heroku.com/
-* Install Heroku Toolbelt --> https://devcenter.heroku.com/articles/heroku-command-line
-* type `heroku create` in your app
-* you will see something like this: `Creating example... done
+1. create Heroku account --> https://signup.heroku.com/
+2. Install Heroku Toolbelt --> https://devcenter.heroku.com/articles/heroku-command-line
+3. type `heroku create` in your app
+4. you will see something like this: `Creating example... done
 https://example.herokuapp.com/ | https://git.heroku.com/example.git`
-* add environment variables to the heroku app --> https://devcenter.heroku.com/articles/config-vars
+5. add environment variables to the heroku app --> https://devcenter.heroku.com/articles/config-vars
+6. `git commit -m -a "initial commit" `
+7. `git push heroku master`
+8. `heroku logs --tail`
+
+### Config Variables
 
 | variable        |value                        |
 | -------------   |:-------------:              |
 | appSecret       | facebook app secret         |
 | pageAccessToken | facebook page access token  |
 | validationToken | facebook validation token   |
-
-* `git commit -m -a "initial commit" `
-* `git push heroku master`
-* `heroku logs --tail`
-
