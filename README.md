@@ -1,24 +1,16 @@
-# chatbot-tutorial
-chatbot sample app using facebook messenger plattform, api.ai and node.js
+# Facebook Chatbot Tutorial
+Step by step guide how to build a chatbot sample app using facebook messenger plattform and node.js
 
 This sample shows how to create a fully functional chatbot.
 
-
 1. Build Facebook integration with node.js backend
-2. Create API.ai conversation
-3. Deploy on Heroku
+2. Deploy on Heroku
 
 # Facebook integration
 
 1. create a Facebook Page
 2. create a Facebook App  --> https://developers.facebook.com/
 3. subscribe your webhook to the page events
-
-# Create API.AI conversation
-
-1. create API.ai account --> https://api.ai
-2. create new App 
-3. set up intents and entities --> https://api.ai/blog/2015/11/09/SlotFilling
 
 # Backend and Heroku
 1. `git clone https://github.com/AdrianKrebs/facebook-chatbot-tutorial.git`
