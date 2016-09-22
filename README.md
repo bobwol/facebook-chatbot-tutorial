@@ -26,8 +26,7 @@ There are two ways to do this:
 2. Tunnel our local server port
 3. `lt --port 5000`
 4. you will see something like this: `https://gqgh.localtunnel.me which is your public base URL`
-6. setup the webhook https://developers.facebook.com/docs/messenger-platform/product-overview/setup#webhook_setup
-
+6. setup Facebook webhook https://developers.facebook.com/docs/messenger-platform/product-overview/setup#webhook_setup 
 
 ## Deploy on Heroku
 1. create Heroku account --> https://signup.heroku.com/
@@ -36,6 +35,7 @@ There are two ways to do this:
 4. you will see something like this: `Creating example... done
 https://example.herokuapp.com/ | https://git.heroku.com/example.git`
 5. add environment variables to the heroku app --> https://devcenter.heroku.com/articles/config-vars
+6. setup Facebook webhook https://developers.facebook.com/docs/messenger-platform/product-overview/setup#webhook_setup 
 6. `git commit -m -a "initial commit" `
 7. `git push heroku master`
 8. `heroku logs --tail`
