@@ -47,3 +47,7 @@ https://example.herokuapp.com/ | https://git.heroku.com/example.git`
 | appSecret       | facebook app secret         |
 | pageAccessToken | facebook page access token  |
 | validationToken | facebook validation token   |
+
+
+### Setup Webhook
+![FB Webhook](callback_url.PNG)
